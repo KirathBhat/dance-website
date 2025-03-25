@@ -1,0 +1,62 @@
+extends base.pug
+
+block scripts
+  script(src='../static/index.js')
+
+block style
+  style
+    include ../static/style.css
+  
+
+block content
+  section#intro
+    h1.head.ptevents MOVE STUDIO
+    p.ptevents Where Dreams are Shaped into Reality
+
+  div.line
+
+  section#cards 
+    h1.ptevents Our Mission 
+    p.ptevents As a Dance Academy
+    div.card
+      div#card1 
+        p Teach the perfect flow of dance and music
+      div#card2 
+        p Help you to express your emotions through dance
+      div#card3 
+        p Inspire people to build a career in dancing
+
+  section#sponsers 
+    p.ptevents Our Sponsers
+
+  section#sponsers2 
+    img(
+        src="../static/sponser1.png"
+        id="sponser1"
+        class="sponser"
+        draggable="false"
+    )
+
+    img(
+        src="../static/sponser2.png"
+        id="sponser2"
+        class="sponser"
+        draggable="false"
+    )
+
+    img(
+        src="../static/sponser3.png"
+        id="sponser3"
+        class="sponser"
+        draggable="false"
+    )
+
+    img(
+        src="../static/sponser4.png"
+        id="sponser4"
+        class="sponser"
+        draggable="false"
+    )
+
+  
+

@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Jost", sans-serif;
+    background-color: rgb(31, 31, 34);
+    color: white;
+    font-weight: 600;
+    user-select: none;
+}
+
+.logo{
+    border: 1px solid white;
+    left: 20px;
+    top: 4px;
+    height: 40px;
+    border-radius: 100%;
+    width: auto;
+    position: absolute;
+}
+
+#navbar{
+    background-color: black;
+    padding-bottom: 10px;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 10px 22px;
+    font-size: 1.2em;
+    color: white;
+    transition: 0.5s all ease;
+    font-weight: 800;
+}
+
+#navbar li a:hover{
+    color: #9e30ff;
+    text-decoration: underline;
+    text-shadow: 5px 4px 20px rgb(162, 0, 255), -5px -5px 20px rgb(162, 0, 255);
+}
+
+#navbar li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#intro{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#intro::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background: center center / cover no-repeat url(../static/bg1.jpg);
+    z-index: -1;
+    opacity: 0.3;
+    filter: blur(5px);
+}
+
+.head{
+    font-size: 8em;
+    font-family: "Bytesized", sans-serif;
+    color: #9c3fee;
+}
+
+#intro p{
+    font-size: 2em;
+    color: rgb(221, 221, 221);
+}
+
+.ptevents{
+    pointer-events: none;
+}
+
+#sponsers{
+    background-color: #9c3fee;
+    padding: 20px;
+    text-align: center;
+    height: 110px;
+}
+
+#sponsers p{
+    font-size: 3em;
+    font-weight: 800;
+}
+
+#sponsers2{
+    background-color: #242427;
+    padding: 20px;
+    text-align: center;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+}
+
+#cards{
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    height: 470px;
+}
+
+#cards h1{
+    font-size: 3em;
+    font-weight: 800;
+}
+
+#cards p{
+    font-size: 1.2em;
+    color: rgb(221, 221, 221);
+    font-style: italic;
+}
+
+.line{
+    height: 6px;
+    width: 100%;
+    background-color: #9c3fee;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    position: absolute;
+    width: 97%
+}
+
+#card1, #card2, #card3{
+    background-color: #242427;
+    height: 100%;
+    padding: 75px 0px;
+    width: 380px;
+    border-radius: 10px;
+    transition: 0.3s all ease;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#card1:hover, #card2:hover, #card3:hover{
+    transform: scale(1.05);
+    background-color: #393442;
+    box-shadow: 0px 0px 15px #9c3fee;
+}
+
+#cards p{
+    font-size: 2em;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar p{
+    position: absolute;
+    top: 12px;
+    left: 70px;
+    font-style: italic;
+}
+
+.sponser{
+    height: 130px;
+    width: auto;
+    margin-top: 30px;
+    padding: 0px 20px;
+}
+
+#sponser1, #sponser4{
+    height: 90px;
+    position: relative;
+    top: 20px;
+}
+
+#sponser4{
+    border-radius: 100%;
+    padding: 0px 30px;
+}
+
+#footer{
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    font-weight: 300;
+}

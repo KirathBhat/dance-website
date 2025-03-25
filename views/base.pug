@@ -1,0 +1,36 @@
+doctype html
+html
+  head
+    link(
+      rel="icon"
+      type="image/x-icon"
+      href="../static/logo.jpg"
+    )
+    title Move Studio
+    block scripts
+    block style
+  body
+    nav#navbar.top
+      img.logo(
+        src="../static/logo.jpg"
+        alt="logo"
+        draggable="false"
+      )
+
+      p Move Studio
+
+      ul
+        li #[a(href="/") Home]
+        li #[a(href="/#cards") About]
+        li #[a(href="/") Services]
+        li #[a(href="/contact") Contact Us]
+        li #[a(href="/") Class Info]
+
+    div.line
+
+    block content
+    
+    footer#footer 
+        p.ptevents &copy; 2025 Move Studio. All Rights Reserved
+      
+    
