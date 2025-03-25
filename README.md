@@ -1,0 +1,2 @@
+# This is Dance Website which has 2 web pages. The Backend and Frontend is made using Express, NodeJS and Pure Pug. On the contact page, the data submitted in the form is saved locally on the host machine as "output.txt" and is replaced/overwritten everytime a new set of data is submitted.
+This is fully responsive to an extent and works well. The website is using a PUG template, which is stored as base.pug.
