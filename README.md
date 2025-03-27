@@ -43,8 +43,8 @@ Make sure you have the following installed:
 
 5. Open a new terminal instance to check the database using Mongo Shell:
     ```bash
-    mongo
-    use Contacts
+    mongosh
+    use contactDance
     db.contacts.find({})
     ```
 
